@@ -333,29 +333,22 @@
   /* DOWNLOAD BUTTON */
 
 
-  /* DARK LIGHT ICON */
+ /* DARK LIGHT ICON */
+#icon {
+  width: 100px;
+  height: auto;
+  cursor: pointer;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 9999; /* Set a high z-index value */
+  transition: transform 1.5s ease; /* Smooth transition effect */
+}
 
-  #icon {
-    width: 20px;
-    cursor: pointer;
-    position: fixed;
-    bottom: 20px;
-    right: 20px;
-  }
-
-  #icon {
-    width: 100px;
-    height: auto;
-    transition: transform 1.5s ease;
-    /* Smooth transition effect */
-  }
-
-  #icon.clicked {
-    transform: scale(1.5);
-    /* scale on click */
-  }
-
-  /* DARK LIGHT ICON */
+#icon.clicked {
+  transform: scale(1.5); /* Scale on click */
+}
+/* DARK LIGHT ICON */
 
 
 
