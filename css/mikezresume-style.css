@@ -1295,3 +1295,29 @@
   }
 
   /* mobile responsive for app icons */
+
+
+/* global */
+
+  @media screen and (max-width: 768px) {
+    h1 {
+        font-size: 36px;
+    }
+    h2 {
+        font-size: 32px;
+    }
+    h3 {
+        font-size: 28px;
+    }
+    /* Adjust other headings and text sizes as needed */
+}
+
+@media screen and (max-width: 768px) {
+  .section-padding {
+      padding: 3rem 0; /* Adjust padding as needed */
+  }
+  /* Adjust other elements with padding and margins */
+}
+
+
+/* global */
