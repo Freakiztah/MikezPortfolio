@@ -1318,3 +1318,13 @@
 
 
 /* global */
+
+/* brandname */
+
+@media (max-width: 768px) {
+  .navbar-brand {
+    font-size: 25px; /* Adjust font size for mobile view */
+  }
+}
+
+/* brandname */
