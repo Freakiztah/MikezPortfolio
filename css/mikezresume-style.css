@@ -821,7 +821,28 @@
     /* Remove underline on hover */
   }
 
+/* footer assignatory */
 
+footer {
+  text-align: center;
+  padding: 20px 0;
+}
+
+hr {
+  border: none;
+  border-top: 1px solid #ccc; /* Horizontal line style */
+  margin: 0;
+}
+
+footer p {
+  margin: 10px 0 0;
+}
+
+footer span {
+  margin: 0 5px; /* Space between text and dot icon */
+}
+
+/* footer assignatory */
 
 
   /* pop up modal for email */
