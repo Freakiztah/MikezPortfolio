@@ -842,6 +842,16 @@ footer span {
   margin: 0 5px; /* Space between text and dot icon */
 }
 
+/* Mobile styles */
+
+@media only screen and (max-width: 600px) {
+  footer p {
+    font-size: 10px; /* Decrease font size for smaller screens */
+  }
+}
+
+/* Mobile styles */
+
 /* footer assignatory */
 
 
